@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encerramento das Inscrições</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #4e54c8, #8f94fb);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 500px;
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+            color: #333;
+            text-align: center;
+        }
+
+        .header-img {
+            width: 100%;
+            border-radius: 20px 20px 0 0;
+        }
+
+        h2 {
+            color: #4e54c8;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: block;
+            width: calc(100% - 20px);
+            margin: 15px auto;
+            padding: 15px;
+            text-decoration: none;
+            color: white;
+            background-image: linear-gradient(to right, #ff9800, #f57c00);
+            border-radius: 10px;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .btn:hover {
+            background-image: linear-gradient(to right, #f57c00, #ff9800);
+            transform: translateY(-5px);
+        }
+
+        .note {
+            font-size: 0.9rem;
+            color: #666;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+          .container {
+              padding: 20px;
+          }
+          h2 {
+              font-size: 1.5rem;
+          }
+          p {
+              font-size: 0.9rem;
+          }
+          .btn {
+              font-size: 0.9rem;
+          }
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="/src/img/Logo 2025 BR.png" alt="Retiro Espiritual 2025 - Distrito de Ipitinga" class="header-img">
+        <h2>Inscrições</h2>
+        <p>As inscrições encerram no dia <strong>15 de fevereiro</strong>. Não perca a oportunidade de participar!</p>
+        <p>Escolha a opção correta para fazer sua inscrição:</p>
+        
+        <a href="https://forms.gle/fF5YygfJPYhJXM176" class="btn">Inscrição para crianças menores de 10 anos (Grátis)</a>
+        <a href="https://forms.gle/sqpRTAQExiSAdGbQ9" class="btn">Inscrição (Ajuda de custo: R$ 25,00)</a>
+        
+        <p class="note">* O valor de R$ 25,00 é uma contribuição voluntária para ajudar nas despesas do evento.<br>
+        <strong>A Palavra de Deus é gratuita</strong>. Ninguém é obrigado a pagar, mas sua contribuição é um ato de consciência e apoio.</p>
+    </div>
+</body>
+</html>
